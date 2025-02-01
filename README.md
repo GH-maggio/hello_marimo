@@ -1,5 +1,6 @@
+```
 uv run fastapi dev
-
+```
 
       INFO   Will watch for changes in these directories: ['/home/cmaggio/repos/hello_marimo']
       INFO   Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
@@ -48,9 +49,9 @@ uv run fastapi dev
       INFO   connection open
       INFO   127.0.0.1:48854 - "POST /notebooks/notebook2/api/kernel/instantiate HTTP/1.1" 200
       INFO   127.0.0.1:48854 - "GET /notebooks/notebook2/public-files-sw.js HTTP/1.1" 200
-
+```
 uv run litestar run
-
+```
      ┌──────────────────────────────┬──────────────────────┐
      │ Litestar version             │ 2.14.0               │
      │ Debug mode                   │ Disabled             │
