@@ -51,43 +51,43 @@ uv run fastapi dev
 
 uv run litestar run
 
-┌──────────────────────────────┬──────────────────────┐
-│ Litestar version             │ 2.14.0               │
-│ Debug mode                   │ Disabled             │
-│ Python Debugger on exception │ Disabled             │
-│ CORS                         │ Disabled             │
-│ CSRF                         │ Disabled             │
-│ OpenAPI                      │ Enabled path=/schema │
-│ Compression                  │ Disabled             │
-└──────────────────────────────┴──────────────────────┘
-INFO:     Started server process [1394]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:56740 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56740 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:56750 - "GET /notebook1/ HTTP/1.1" 200 OK
-INFO:     ('127.0.0.1', 35512) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
-INFO:     127.0.0.1:56750 - "GET /notebook1/public-files-sw.js/ HTTP/1.1" 404 Not Found
-INFO:     ('127.0.0.1', 35518) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
-INFO:     ('127.0.0.1', 35520) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
-INFO:     ('127.0.0.1', 35530) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
-INFO:     ('127.0.0.1', 35538) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
-INFO:     127.0.0.1:56750 - "GET /notebook2/ HTTP/1.1" 200 OK
-INFO:     ('127.0.0.1', 35544) - "WebSocket /notebook2/ws/?session_id=s_ujsdgw" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
-INFO:     127.0.0.1:56750 - "GET /notebook2/public-files-sw.js/ HTTP/1.1" 404 Not Found
-INFO:     ('127.0.0.1', 44400) - "WebSocket /notebook2/ws/?session_id=s_ujsdgw" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     connection closed
+     ┌──────────────────────────────┬──────────────────────┐
+     │ Litestar version             │ 2.14.0               │
+     │ Debug mode                   │ Disabled             │
+     │ Python Debugger on exception │ Disabled             │
+     │ CORS                         │ Disabled             │
+     │ CSRF                         │ Disabled             │
+     │ OpenAPI                      │ Enabled path=/schema │
+     │ Compression                  │ Disabled             │
+     └──────────────────────────────┴──────────────────────┘
+     INFO:     Started server process [1394]
+     INFO:     Waiting for application startup.
+     INFO:     Application startup complete.
+     INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+     INFO:     127.0.0.1:56740 - "GET / HTTP/1.1" 200 OK
+     INFO:     127.0.0.1:56740 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+     INFO:     127.0.0.1:56750 - "GET /notebook1/ HTTP/1.1" 200 OK
+     INFO:     ('127.0.0.1', 35512) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
+     INFO:     127.0.0.1:56750 - "GET /notebook1/public-files-sw.js/ HTTP/1.1" 404 Not Found
+     INFO:     ('127.0.0.1', 35518) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
+     INFO:     ('127.0.0.1', 35520) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
+     INFO:     ('127.0.0.1', 35530) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
+     INFO:     ('127.0.0.1', 35538) - "WebSocket /notebook1/ws/?session_id=s_u9diol" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
+     INFO:     127.0.0.1:56750 - "GET /notebook2/ HTTP/1.1" 200 OK
+     INFO:     ('127.0.0.1', 35544) - "WebSocket /notebook2/ws/?session_id=s_ujsdgw" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
+     INFO:     127.0.0.1:56750 - "GET /notebook2/public-files-sw.js/ HTTP/1.1" 404 Not Found
+     INFO:     ('127.0.0.1', 44400) - "WebSocket /notebook2/ws/?session_id=s_ujsdgw" 403
+     INFO:     connection rejected (403 Forbidden)
+     INFO:     connection closed
