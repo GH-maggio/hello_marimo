@@ -1,6 +1,7 @@
 ```
 uv run fastapi dev
 ```
+navigate to http://127.0.0.1:8000/notebooks/notebook1
 
       INFO   Will watch for changes in these directories: ['/home/cmaggio/repos/hello_marimo']
       INFO   Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
@@ -52,6 +53,8 @@ uv run fastapi dev
 ```
 uv run litestar run
 ```
+navigate to http://127.0.0.1:8000/notebooks/notebook1
+
      ┌──────────────────────────────┬──────────────────────┐
      │ Litestar version             │ 2.14.0               │
      │ Debug mode                   │ Disabled             │
